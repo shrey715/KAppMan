@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=KAppMan Watcher
+Comment=Automatically integrates AppImages from your watch directory into the KDE menu
+Exec=kappman --watch
+Icon=application-x-executable
+Type=Application
+X-KDE-autostart-condition=
+X-KDE-AutostartScript=true
+Hidden=false

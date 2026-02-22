@@ -1,0 +1,78 @@
+/* Breeze Dark — KDE Plasma default dark theme */
+
+QMainWindow, QWidget {
+    background-color: #232629;
+    color: #eff0f1;
+    font-family: "Noto Sans", "Oxygen", sans-serif;
+    font-size: 13px;
+}
+QPushButton {
+    background-color: #31363b;
+    color: #eff0f1;
+    border: 1px solid #4d5157;
+    border-radius: 4px;
+    padding: 6px 14px;
+    font-weight: 500;
+}
+QPushButton:hover { background-color: #4d5157; border-color: #3daee9; color: #3daee9; }
+QPushButton:pressed { background-color: #3daee9; color: #232629; }
+QPushButton#dangerBtn { border-color: #da4453; color: #da4453; }
+QPushButton#dangerBtn:hover { background-color: #da4453; color: #232629; }
+QPushButton#accentBtn {
+    background-color: #3daee9;
+    color: #232629;
+    font-weight: 600;
+    border: none;
+}
+QPushButton#accentBtn:hover { background-color: #2980b9; }
+QToolButton {
+    background-color: #31363b;
+    color: #eff0f1;
+    border: 1px solid #4d5157;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+QToolButton:hover { background-color: #4d5157; border-color: #3daee9; color: #3daee9; }
+QLineEdit, QComboBox {
+    background-color: #1b1e20;
+    color: #eff0f1;
+    border: 1px solid #4d5157;
+    border-radius: 4px;
+    padding: 5px 10px;
+    selection-background-color: #3daee9;
+    selection-color: #232629;
+}
+QLineEdit:focus, QComboBox:focus { border-color: #3daee9; }
+QComboBox::drop-down { border: none; }
+QComboBox QAbstractItemView {
+    background-color: #1b1e20;
+    color: #eff0f1;
+    selection-background-color: #31363b;
+    selection-color: #3daee9;
+    border: 1px solid #4d5157;
+    border-radius: 3px;
+}
+QListWidget {
+    background-color: #1b1e20;
+    border: 1px solid #4d5157;
+    border-radius: 6px;
+    padding: 4px;
+    alternate-background-color: #232629;
+}
+QListWidget::item { border-radius: 3px; padding: 6px 8px; margin: 1px 0; }
+QListWidget::item:selected { background-color: #31363b; color: #3daee9; }
+QListWidget::item:hover { background-color: #2a2f34; }
+QLabel#titleLabel { font-size: 20px; font-weight: 700; color: #3daee9; }
+QLabel#subtitleLabel { font-size: 11px; color: #7f8c8d; }
+QLabel#sectionLabel { font-size: 11px; font-weight: 600; color: #bdc3c7; }
+QStatusBar {
+    background-color: #1b1e20;
+    color: #7f8c8d;
+    border-top: 1px solid #4d5157;
+    font-size: 11px;
+}
+QFrame[frameShape="4"], QFrame[frameShape="5"] { color: #4d5157; }
+QScrollBar:vertical { background: #1b1e20; width: 8px; border-radius: 4px; }
+QScrollBar::handle:vertical { background: #4d5157; border-radius: 4px; min-height: 20px; }
+QScrollBar::handle:vertical:hover { background: #7f8c8d; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0; }

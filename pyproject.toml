@@ -1,0 +1,28 @@
+[project]
+name = "kappman"
+version = "0.1.0"
+description = "A KDE-native AppImage manager — watch, integrate, and manage AppImages from your desktop."
+authors = [{ name = "KAppMan Contributors" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = [
+    "pyqt6>=6.6.0",
+    "watchdog>=4.0.0",
+]
+
+[project.scripts]
+kappman = "kappman.main:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-mock>=3.12"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["kappman"]
+
+[dependency-groups]
+dev = ["pytest>=8.0", "pytest-mock>=3.12"]
