@@ -1,6 +1,6 @@
 # KAppMan – KDE AppImage Manager
 
-> A lightweight, KDE-native AppImage manager built with Python + PyQt6. Managed by [uv](https://github.com/astral-sh/uv).
+> A lightweight, KDE-native AppImage manager built with Python + PyQt6.
 
 ## Features
 
@@ -85,3 +85,9 @@ uv run pytest tests/ -v
 ## License
 
 MIT
+
+---
+
+## Disclaimer
+
+This project was built with the assistance of AI (Google Deepmind's Antigravity). The code has been reviewed and is maintained by the author.
