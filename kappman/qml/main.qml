@@ -32,12 +32,12 @@ Kirigami.ApplicationWindow {
             Kirigami.Separator { Kirigami.FormData.isSection: true; Kirigami.FormData.label: "Actions" }
 
             Controls.Button {
-                text: "⚡ Integrate All"
+                text: "Integrate All"
                 onClicked: console.log("Integrating all from", watchDirField.text)
             }
 
             Controls.Button {
-                text: "👁 Start Watcher"
+                text: "Start Watcher"
                 checkable: true
                 onToggled: console.log(checked ? "Watcher started" : "Watcher stopped")
             }
